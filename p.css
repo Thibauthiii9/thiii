@@ -1,0 +1,56 @@
+header
+{
+   background-color: black;
+   text-align: center;
+   color:white ;
+}
+body
+{
+   background-image: url("Tulips.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: top right;
+   color:black;
+}
+
+h1
+{
+   border: 3px yellow solid ;
+   border-radius: 60px;
+   text-decoration:underline;
+   text-align: center;
+   box-shadow: 6px 6px 0px yellowgreen;
+}
+p
+{
+   
+   font-size: 40px;
+   font-family: "Times New Roman", Times, serif;
+   opacity: 0.6;
+   text-shadow: 2px 2px 0px black;
+   
+}
+strong
+{
+   font-weight: bold;
+}
+em
+{
+   
+   font-style: oblique;
+   color: rgb(69,201,145);
+}
+.Moi
+{
+   float:left;
+}
+#Tulips
+{
+   width: 100px;
+   height:auto;
+
+}
+footer 
+{
+   text-align: end;
+}
