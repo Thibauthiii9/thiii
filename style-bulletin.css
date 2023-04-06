@@ -1,0 +1,96 @@
+/* body style */
+body {
+    background: #fcfcfc;
+}
+
+/* table style */
+table {
+    width: 98%;
+    border-collapse: collapse;
+    font-family: 'calibri';
+    background: #ffffff;
+    box-shadow: 1px 1px 9px #7cff01;
+    margin: auto;
+    border: 9px solid #f00;
+}
+
+/* span style */
+span {
+    color: blue;
+    font-size: 20px;
+    font-family: 'Bradley Hand ITC';
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+/* td style */
+td {
+    padding: 1px 5px;
+    border: 1px solid #000;
+}
+
+/* big border separator*/
+tr td:nth-child(1) {
+    border-right: 3px solid #000;
+}
+
+/* tr_1 adding border */
+.tr_1 {
+    border: 1px solid #000;
+}
+
+/* tr_1 td remove border */
+.tr_1 td {
+    border: none;
+}
+
+/* tr_1 first td remove border*/
+.tr_1 td:nth-child(1) {
+    border: none;
+}
+
+/* tr_2 and tr_4 centering */
+.tr_2,
+.tr_4 {
+    text-align: center;
+}
+
+/* remove border */
+.parent-signature td:nth-child(1) {
+    border: 1px solid #000;
+}
+
+/* remove border */
+.tet td:nth-child(1) {
+    border: 1px solid #000;
+}
+
+/* echec style */
+.echec {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+/* machine writing */
+.mach-wt {
+    text-align: right;
+}
+
+/*human writing */
+.h-wt {
+    color: blue;
+    font-family: 'Bradley Hand ITC';
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* centering */
+.center {
+    text-align: center;
+}
+
+/* place style */
+.place {
+    color: red;
+}
